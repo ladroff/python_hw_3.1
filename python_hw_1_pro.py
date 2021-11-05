@@ -15,7 +15,7 @@ class Client:
         self.contact = contact
         self.email = email
 
-class Orfer:
+class Order:
     def __init__(self, Client, Shoes, ):
         def order(self):
             print("Order")
@@ -23,5 +23,3 @@ class Orfer:
             return "Shoes [model = {}, size = {}, color =
             {}, sex = {}, price = {}]".format(self.model, self.size, self.color, self.sex, self.price)
 
-            def client():
-                print("Client")

@@ -3,8 +3,8 @@ from Stuff import Stuff
 
 class Shoes(Stuff):
 
-    def __init__(self, shoes, wears, seawears, model, size, color, sex, price):
-        super().__init__(shoes, wears, seawears)
+    def __init__(self, shoes, wears, balls, model, size, color, sex, price):
+        super().__init__(shoes, wears, balls)
         self.model = model
         self.size = size
         self.color = color

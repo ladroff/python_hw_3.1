@@ -9,4 +9,4 @@ class Stuff:
         pass
 
     def __str__(self):
-        return "Shoes = {}, Wears = {}, Balls = {}".format(self.shoes, self.wears, self.balls, )
+        return "Shoes = {}, Wears = {}, Balls = {}".format(self.shoes, self.wears, self.balls)
